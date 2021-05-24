@@ -1,0 +1,43 @@
+body {
+  background-color: #efefef !important;
+}
+
+.card {
+  border-radius: 8px !important;
+  margin: 0 auto;
+  box-shadow: 10px 12px 8px 8px rgba(99, 99, 99, 0.2);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.user-image {
+  border-radius: 8px 8px 0 0 !important;
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+}
+
+.image-fluid.modal-image {
+  border-radius: 50% !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #d7cec7 !important;
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+}
+
+button {
+  border-radius: 30px !important;
+}
+
+.btn-remove-favorite {
+  border-radius: 50% !important;
+}
